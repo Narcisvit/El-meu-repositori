@@ -18,7 +18,7 @@ ul {
     padding: 10px;
     list-style-type: none;
     text-decoration: underline;
-    background-color: rgba(85, 173, 26, 0.63);
+    background-color: rgba(26, 109, 173, 0.63);
     overflow: hidden;
 }
 
@@ -39,7 +39,7 @@ ul li a {
 }
 
 footer {
-    background-color: rgba(85, 173, 26, 0.63)
+    background-color: rgba(26, 109, 173, 0.63);
 }
 
 
@@ -145,3 +145,11 @@ footer {
 
 .nacional { background-color: red; }
 .autonomic { background-color: green; }
+
+.formulari-contacte {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+   padding: 0 20px;
+}
