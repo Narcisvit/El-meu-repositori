@@ -1,16 +1,16 @@
 body {
     margin: 0;
-  background-color: #ffe4c4;
+    background-color: #ffe4c4;
 }
 
 img {
     width: 322px;
-        border-radius: 30px;
+    border-radius: 30px;
     border: 5px solid black;
     box-shadow: 5px 5px 15px 5px #000000;
 
-        height: 200px;
-                margin-right: 30px; /
+    height: 200px;
+    margin-right: 30px;/
 }
 
 ul {
@@ -43,25 +43,75 @@ footer {
 }
 
 
-  
-
-    
 
 
 
-.c1 { background-color: #98fd97; } /* Vermell clar */
-.c2 { background-color: #ffd7c8; } /* Verd clar */
-.c3 { background-color: #bc6cb3; } /* Blau clar */
-.c4 { background-color: #c9db81; } /* Groc clar */
-.c5 { background-color: #f170e8; } /* Rosa */
-.c6 { background-color: #c36ab8; } /* Gris (pati/casa) */
-.c7 { background-color: #fefc77; } /* Gris (pati/casa) */
-.c8 { background-color: #ae7c6b; } /* Taronja clar */
-.c9 { background-color: #c9b9f6; } 
-.c10 { background-color: #2bafaf; } 
-.c11 { background-color: #A8D5D5; } /* Vermell clar */
-.c12 { background-color: #667575; } /* Vermell clar */
-.c13 { background-color: #4d43a3; } /* Vermell clar */
+
+
+
+.c1 {
+    background-color: #98fd97;
+}
+
+/* Vermell clar */
+.c2 {
+    background-color: #ffd7c8;
+}
+
+/* Verd clar */
+.c3 {
+    background-color: #bc6cb3;
+}
+
+/* Blau clar */
+.c4 {
+    background-color: #c9db81;
+}
+
+/* Groc clar */
+.c5 {
+    background-color: #f170e8;
+}
+
+/* Rosa */
+.c6 {
+    background-color: #c36ab8;
+}
+
+/* Gris (pati/casa) */
+.c7 {
+    background-color: #fefc77;
+}
+
+/* Gris (pati/casa) */
+.c8 {
+    background-color: #ae7c6b;
+}
+
+/* Taronja clar */
+.c9 {
+    background-color: #c9b9f6;
+}
+
+.c10 {
+    background-color: #2bafaf;
+}
+
+.c11 {
+    background-color: #A8D5D5;
+}
+
+/* Vermell clar */
+.c12 {
+    background-color: #667575;
+}
+
+/* Vermell clar */
+.c13 {
+    background-color: #4d43a3;
+}
+
+/* Vermell clar */
 
 
 
@@ -72,7 +122,8 @@ footer {
 /* Estructura base de la taula */
 .calendari {
     border-collapse: collapse;
-    margin-bottom: 30px; /* Espai entre la taula de Novembre i la de Desembre */
+    margin-bottom: 30px;
+    /* Espai entre la taula de Novembre i la de Desembre */
     width: 400px;
 }
 
@@ -143,13 +194,66 @@ footer {
     display: inline-block;
 }
 
-.nacional { background-color: red; }
-.autonomic { background-color: green; }
+.nacional {
+    background-color: red;
+}
+
+.autonomic {
+    background-color: green;
+}
 
 .formulari-contacte {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-   padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+    padding: 25px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.formulari-contacte .camp {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.formulari-contacte label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.formulari-contacte input,
+.formulari-contacte textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.formulari-contacte textarea {
+    height: 110px;
+    resize: vertical;
+}
+
+.formulari-contacte button {
+    align-self: flex-start;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 20px;
+    font-family: inherit;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formulari-contacte button:hover {
+    background: #333;
 }
