@@ -257,3 +257,91 @@ footer {
 .formulari-contacte button:hover {
     background: #333;
 }
+
+
+
+
+
+.residencia {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #eef0f8;
+    border-radius: 10px;
+}
+
+.residencia fieldset {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.residencia legend {
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+.residencia label {
+    display: block;
+    font-weight: bold;
+    margin: 12px 0 5px;
+}
+
+/* etiquetes dels checkbox i radio, en línia */
+.residencia fieldset fieldset label {
+    display: inline-block;
+    font-weight: normal;
+    margin-right: 12px;
+}
+
+.residencia input[type="text"],
+.residencia input[type="email"],
+.residencia input[type="tel"],
+.residencia input[type="date"],
+.residencia input[type="url"],
+.residencia select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.residencia input[type="range"] {
+    width: 100%;
+}
+
+/* vora vermella si no és vàlid, verda si ho és */
+.residencia input:required:invalid {
+    border-color: crimson;
+}
+
+.residencia input:valid:not(:placeholder-shown) {
+    border-color: seagreen;
+}
+
+.botons-form {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.btn-envia {
+    background: rebeccapurple;
+    color: white;
+    border: 2px solid rebeccapurple;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-reset {
+    background: white;
+    color: rebeccapurple;
+    border: 2px solid rebeccapurple;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
